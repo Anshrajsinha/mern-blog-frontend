@@ -1,0 +1,1 @@
+export const api = "https://mern-blog-backend-jv55.onrender.com"
