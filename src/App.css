@@ -353,7 +353,7 @@ body::-webkit-scrollbar{
     height: 10vh;
   }
   .label {
-    top: 20%;
+    top: -10%;
     left: 30%;
     text-align: center;
     letter-spacing: 2px;
@@ -363,20 +363,21 @@ body::-webkit-scrollbar{
     max-height: 20vh;
     position: relative;
     transform: translate(-50%,-50%);
-    top: 10%;
+    top: 2%;
     left: 50%;
   }
   .content {
     position: absolute;
     top: -40%;
-    height: 45vh;
+    height: 40vh;
     width: 88vw;
   }
   .rT {
     width: 160px;
     position: absolute;
-    top: 55%;
+    top: 53%;
     height: 30px;
+    margin-left: 3px;
   }
   .btn-create {
     position: absolute;
@@ -385,25 +386,32 @@ body::-webkit-scrollbar{
     top: 78%;
   }
   .edit-link {
-    position: absolute;
-    top: 23%;
+    position: relative;
+    top: 10%;
     left: 70%;
     font-size: 0.9rem;
   }
   .del-link {
-    top: 23%;
+    position: relative;
+    top: 10%;
     font-size: 0.9rem;
+  }
+  .ed-del {
+    margin-bottom: 2px;
+    margin-right: 8px;
   }
   .header-user button {
     left: 80%;
   }
 }
 
-@media screen and (min-width: 460px) and (max-width: 900px) {
+@media screen and (min-width: 451px) and (max-width: 900px) {
   .edit-link {
+    position: relative;
     top: 14%;
   }
   .del-link {
+    position: relative;
     top: 14%;
   }
   .posts-home {

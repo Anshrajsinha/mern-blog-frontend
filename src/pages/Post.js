@@ -27,7 +27,7 @@ export const Post = () => {
             {
                 userInfo && (
                 userInfo.name === post.writer && (
-                    <div>
+                    <div className="ed-del">
                         <Link to={`/edit/${post._id}`} className="edit-link">Edit</Link>
                         <button onClick={deletePost} className="del-link">Delete</button>
                     </div>
