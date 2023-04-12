@@ -275,8 +275,7 @@ body::-webkit-scrollbar{
   border-radius: 2px;
   padding: 3px;
   font-size: 1rem;
-  position: absolute;
-  top: 20%;
+  position: relative;
   left: 70%;
 }
 .post-link {
@@ -289,8 +288,7 @@ body::-webkit-scrollbar{
   border-radius: 2px;
   padding: 3px;
   font-size: 1rem;
-  position: absolute;
-  top: 19%;
+  position: relative;
   left: 80%;
   cursor: pointer;
 }
